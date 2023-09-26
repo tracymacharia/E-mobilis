@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:textSize="30dp"
+        android:text="Osotua Homes is a private organization that is focused on provisions of accomodation for both local and international tourists.The company is sacco owned and in patnership with The Aga khan hospital,Stanbic bank and other parastatals.A Home Away From Home.Luxury intertwined with serenity.@Osotua Homes.ac.ke"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>

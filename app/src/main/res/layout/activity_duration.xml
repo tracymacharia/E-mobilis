@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="fragment_login_tab">
+
+
+
+      <TextView
+        android:id="@+id/checkInText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-In Date:"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/checkInDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/checkInText"
+        android:layout_marginStart="8dp"
+        android:hint="Select Check-In Date"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/checkOutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-Out Date:"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/checkInText"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/checkOutDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/checkOutText"
+        android:layout_marginStart="8dp"
+        android:hint="Select Check-Out Date"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_below="@id/checkInText"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/numberOfNights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nights: 0"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/checkOutText"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/totalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Cost: $0"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/numberOfNights"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

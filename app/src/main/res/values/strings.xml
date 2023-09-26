@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Single Rooms
+    <string name="app_name">Housing Options</string>
+
+    <string name="SingleRooms">Single Rooms
+
+\nSingle Rooms</string>
+    <string name="singleroomdesc">\nSpacious Bedroom
+\nTiled with tinted floors
+\nOceanview
+\nSelf contained with a fire place
+\nSubscription to this package is inclusiive of the swimming pool facilities and the indoor games arena
+\nNo cash  No Refunds!!!</string>
+
+    //Bedsitters
+
+    <string name="Bedsitters">Bedsitters houses
+ </string>
+
+    <string name="Bedsittersdesc">\nToilet ensuite
+\nHammock,hot tub and sauna
+\nKitchen Place
+\nLiving room and a bedroom
+\nNo cash and money paid is non refundable!!!!
+</string>
+
+    //One Bedroom
+
+    <string name="OneBedroom">One Bedroom
+    </string>
+    <string name="Onebedroomdesc">
+\nBalcony
+\nParking Lots
+Tennis court
+gymnastics facility
+\nNo cash NO Refunds!!!!!</string>
+
+    //Two bedrooms
+
+    <string name="TwoBedrooms">Two Bedrooms
+</string>
+    <string name="TwoBedroomsdesc">\nmaster bedroom,living room,kitchen place and an extra room
+\nSelf contained with elevators and Wi-Fi provision
+Golf taven and baseball ballet
+\ncasino bar and eateries
+\nNO cash No Refunds!</string>
+
+
+    //Apartments
+
+    <string name="Apartments">
+</string>
+    <string name="Apartmentdesc">1,2,3,4 Bedrooms
+\nsocial amenties with security
+\nGated community
+\nfurnished kitchenplace
+\nhouse helps!</string>
+    <string name="duration">Duration:</string>
+    <string name="housing_options">Housing Options</string>
+    <string name="house_model">House model:</string>
+    <string name="house_charges">house charges</string>
+    <string name="payment">Payment :</string>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+    <string name="donate">Donate</string>
+    <string name="gallery">Gallery</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>;
+</resources>
